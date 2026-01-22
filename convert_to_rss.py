@@ -4,8 +4,11 @@ from feedgen.feed import FeedGenerator
 import datetime
 import os
 import re
+import json
+import hashlib
 
 URL = "https://dtmwiki.cuzk.gov.cz/start"
+CACHE_FILE = "news_cache.json"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
@@ -18,87 +21,97 @@ def parse_date(text):
     if match:
         d, m, y = map(int, match.groups())
         try:
-            # Vytvoříme datum v poledne UTC pro konzistenci
             return datetime.datetime(y, m, d, 12, 0, tzinfo=datetime.timezone.utc)
         except ValueError:
             pass
-    return datetime.datetime.now(datetime.timezone.utc)
+    return None
+
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+def save_cache(cache):
+    with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 
 def generate_rss():
     try:
-        print(f"Startuju stahování stránky: {URL}")
-        # Přidán timeout pro stabilitu v automatických úlohách
+        cache = load_cache()
+        new_cache = {}
+        
+        print(f"Stahuji DTMwiki: {URL}")
         response = requests.get(URL, headers=HEADERS, timeout=20)
         response.encoding = 'utf-8'
         response.raise_for_status()
-        print("Stránka úspěšně stažena.")
         
         soup = BeautifulSoup(response.text, "html.parser")
-
-        # 1. Najdeme nadpis Aktuality (odstavec obsahující "Aktuality:")
-        print("Hledám sekci Aktuality...")
         aktuality_p = soup.find(lambda tag: tag.name == "p" and "Aktuality:" in tag.text)
         
         if not aktuality_p:
-            # Zkusíme najít alternativně přes strong
             strong_tag = soup.find("strong", string=re.compile("Aktuality:"))
             if strong_tag:
                 aktuality_p = strong_tag.find_parent("p")
 
         if not aktuality_p:
-            print("CHYBA: Sekce 'Aktuality' nebyla na stránce nalezena.")
+            print("Sekce Aktuality nenalezena.")
             return
 
-        # 2. Seznam novinek je v hned následujícím <ul>
         news_list = aktuality_p.find_next_sibling("ul")
-        
         if not news_list:
-            print("CHYBA: Seznam novinek (ul) nenalezen.")
+            print("Seznam novinek nenalezen.")
             return
 
-        # 3. Inicializace RSS feedu
         fg = FeedGenerator()
         fg.id(URL)
         fg.title('DTM Wiki - Aktuality')
         fg.author({'name': 'DTM Wiki Monitor'})
         fg.link(href=URL, rel='alternate')
-        fg.description('Automaticky generovaný RSS kanál z odstavce Aktuality na DTM Wiki.')
+        fg.description('RSS kanál s pamětí pro zprávy bez data.')
         fg.language('cs')
 
-        # 4. Extrakce položek (li)
         items = news_list.find_all("li")
-        print(f"Nalezeno {len(items)} novinek. Začínám generovat feed...")
-
         for li in items:
-            # DokuWiki často balí text do div.li
             content_div = li.find("div", class_="li")
             text = content_div.get_text(strip=True) if content_div else li.get_text(strip=True)
-            
             if not text:
                 continue
 
+            # Vytvoření unikátního ID pro zprávu
+            item_id = hashlib.md5(text.encode('utf-8')).hexdigest()
+            
+            # Určení data: 1. Text, 2. Cache, 3. Dnešek
+            pub_date = parse_date(text)
+            if not pub_date:
+                if item_id in cache:
+                    pub_date = datetime.datetime.fromisoformat(cache[item_id])
+                else:
+                    pub_date = datetime.datetime.now(datetime.timezone.utc)
+            
+            # Uložení do nové cache
+            new_cache[item_id] = pub_date.isoformat()
+
             fe = fg.add_entry()
-            fe.id(text) 
+            fe.id(item_id)
             fe.title(text)
             fe.link(href=URL)
             
-            # HTML obsah zachováme pro čtečky
             html_content = content_div.decode_contents() if content_div else li.decode_contents()
             fe.content(html_content, type='html')
-            
-            # Nastavení data
-            pub_date = parse_date(text)
             fe.pubDate(pub_date)
             fe.updated(pub_date)
 
-        # 5. Uložení feed.xml
+        # Uložíme zprávy, které tam byly (aby se neměnilo datum i při příštím spuštění)
+        save_cache(new_cache)
         fg.rss_file('feed.xml', pretty=True)
-        print("Hotovo! Soubor feed.xml byl úspěšně vytvořen.")
+        print("DTMwiki feed a cache aktualizovány.")
 
-    except requests.exceptions.RequestException as e:
-        print(f"Chyba při stahování (síť/timeout): {e}")
     except Exception as e:
-        print(f"Nenadálá chyba: {e}")
+        print(f"Chyba: {e}")
 
 if __name__ == "__main__":
     generate_rss()
