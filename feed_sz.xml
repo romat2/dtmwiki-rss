@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Správa železnic - DTM Technické standardy - Aktuality</title>
+    <link>https://www.spravazeleznic.cz/stavby-zakazky/podklady-pro-zhotovitele/digitalni-technicka-mapa-zeleznice-technicke-standardy/aktuality</link>
+    <description>Novinky z webu Správy železnic ohledně technických standardů DTM.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>cs</language>
+    <lastBuildDate>Thu, 22 Jan 2026 10:23:48 +0000</lastBuildDate>
+    <item>
+      <title>Konzultační schůzky pro geodety k DTMŽ</title>
+      <link>https://www.spravazeleznic.cz/-/-od-16-7-2025-vzdy-pravidelne-kazdou-stredu-od-7-30-probihaji-pro-geodety</link>
+      <description>Od 16. 7. 2025 vždy pravidelně každou středu od 7:30 probíhají pro geodety s odbornou způsobilostí dle předpisu SŽ Zam1 formou on-line konzultační schůzky k DTMŽ.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/-od-16-7-2025-vzdy-pravidelne-kazdou-stredu-od-7-30-probihaji-pro-geodety</guid>
+      <pubDate>Tue, 29 Jul 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace s Prahou a Středočeským krajem</title>
+      <link>https://www.spravazeleznic.cz/-/-k-4-8-2025-bude-spustena-preshranicni-editace-mezi-spravou-zeleznic-a-krajem-praha-a-mezi-sz-a-stredoceskym-krajem</link>
+      <description>K 4. 8. 2025 bude spuštěná přeshraniční editace mezi Správou železnic, hlavním městem Prahou a Středočeským krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci těchto dvou krajů odevzdávána od tohoto data, musí být navázána i na krajská data.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/-k-4-8-2025-bude-spustena-preshranicni-editace-mezi-spravou-zeleznic-a-krajem-praha-a-mezi-sz-a-stredoceskym-krajem</guid>
+      <pubDate>Tue, 29 Jul 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zpřístupnění webového fotokatalogu</title>
+      <link>https://www.spravazeleznic.cz/-/zpristupneni-weboveho-fotokatalogu</link>
+      <description>Od 4.8.2025 je pro veřejnost zpřístupněn webový fotokatalog (technický standard „Modelový objektový železniční katalog“ - Metodický pokyn SŽ M20/MP014).</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/zpristupneni-weboveho-fotokatalogu</guid>
+      <pubDate>Mon, 04 Aug 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aktualizace operativních informací pro přechodné období DTMŽ</title>
+      <link>https://www.spravazeleznic.cz/-/aktualizace-operativnich-informaci-pro-prechodne-obdobi-dtmz</link>
+      <description>K 4.8.2025 byly vydány aktualizované operativní informace pro přechodné období DTMŽ, ve kterých byl doplněn dokument týkající se přeshraniční editace dat a upraveny dokumenty týkajících se základních informací pro dodavatele geodetických dokumentací a ověření homogenity GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/aktualizace-operativnich-informaci-pro-prechodne-obdobi-dtmz</guid>
+      <pubDate>Mon, 04 Aug 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Přeshraniční editace s Prahou a Středočeským krajem byla spuštěna</title>
+      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-s-hlavnim-mestem-praha-a-stredoceskym-krajem-byla-spustena</link>
+      <description>Dne 4. 8. 2025 byla spuštěna přeshraniční editace mezi Správou železnic, hlavním městem Prahou a Středočeským krajem.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-s-hlavnim-mestem-praha-a-stredoceskym-krajem-byla-spustena</guid>
+      <pubDate>Tue, 05 Aug 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace s Jihočeským krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-jihoceskym-krajem</link>
+      <description>K 22. 9. 2025 bude spuštěná přeshraniční editace mezi Správou železnic a Jihočeským krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data.
+
+Od 17. do 22. 9. 2025 bude pozastaven příjem GAD na SŽ.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-jihoceskym-krajem</guid>
+      <pubDate>Fri, 05 Sep 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Přeshraniční editace s Jihočeským krajem byla spuštěna</title>
+      <link>https://www.spravazeleznic.cz/stavby-zakazky/podklady-pro-zhotovitele/digitalni-technicka-mapa-zeleznice-technicke-standardy/aktuality/-/asset_publisher/dYL5BeXiE9xt/content/preshranicni-editace-s-jihoceskym-krajem-byla-spustena?inheritRedirect=false&amp;redirect=https%3A%2F%2Fwww.spravazeleznic.cz%2Fstavby-zakazky%2Fpodklady-pro-zhotovitele%2Fdigitalni-technicka-mapa-zeleznice-technicke-standardy%2Faktuality%3Fp_p_id%3D101_INSTANCE_dYL5BeXiE9xt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_count%3D1</link>
+      <description>Dne 22. 9. 2025 byla spuštěna přeshraniční editace mezi Správou železnic a Jihočeským krajem.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/stavby-zakazky/podklady-pro-zhotovitele/digitalni-technicka-mapa-zeleznice-technicke-standardy/aktuality/-/asset_publisher/dYL5BeXiE9xt/content/preshranicni-editace-s-jihoceskym-krajem-byla-spustena?inheritRedirect=false&amp;redirect=https%3A%2F%2Fwww.spravazeleznic.cz%2Fstavby-zakazky%2Fpodklady-pro-zhotovitele%2Fdigitalni-technicka-mapa-zeleznice-technicke-standardy%2Faktuality%3Fp_p_id%3D101_INSTANCE_dYL5BeXiE9xt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_count%3D1</guid>
+      <pubDate>Tue, 23 Sep 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Úprava kontrol GAD v rámci IS DTMŽ</title>
+      <link>https://www.spravazeleznic.cz/-/uprava-kontrol-gad-v-ramci-is-dtmz</link>
+      <description>Po 1. 11. 2025 dojde v rámci kontrol GAD v IS DTMŽ k nasazení nových a úpravě některých stávajících kontrol.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/uprava-kontrol-gad-v-ramci-is-dtmz</guid>
+      <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace s Královehradeckým krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-kralovehradeckym-krajem</link>
+      <description>K 8. 12. 2025 bude spuštěná přeshraniční editace mezi Správou železnic a Královehradeckým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 3. do 8. 12. 2025 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-kralovehradeckym-krajem</guid>
+      <pubDate>Fri, 21 Nov 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zveřejnění první verze xsd šablon pro novou verzi žxml související s přechodem na JVF 1.5</title>
+      <link>https://www.spravazeleznic.cz/-/zverejneni-prvni-verze-xsd-sablon-pro-novou-verzi-zxml-souvisejici-s-prechodem-na-jvf-1-5</link>
+      <description>V souvislosti s přechodem krajských DTM na verzi jednotného výměnného formátu s označením JVF 1.5. dojde rovněž k aktualizaci logického datového modelu Správy železnic, státní organizace a úpravě výměnného formátu žxml.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/zverejneni-prvni-verze-xsd-sablon-pro-novou-verzi-zxml-souvisejici-s-prechodem-na-jvf-1-5</guid>
+      <pubDate>Thu, 27 Nov 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace s Pardubickým krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-pardubickym-krajem</link>
+      <description>K 12. 12. 2025 bude spuštěná přeshraniční editace mezi Správou železnic a Pardubickým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 10. do 12. 12. 2025 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-pardubickym-krajem</guid>
+      <pubDate>Fri, 28 Nov 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Výdeje dat a přiřazení rolí v externím geoportálu</title>
+      <link>https://www.spravazeleznic.cz/-/vydeje-dat-a-prirazeni-roli-v-externim-geoportalu</link>
+      <description>Výdeje ze systému IS DTMŽ budou poskytovány do 19. 12. 2025 do času 15:00. Po úspěšném zaregistrování do externího geoportálu Vám budou přiřazeny role do 16. 12. 2025 do času 13:00. Obnovení těchto činností proběhne 5. 1. 2026.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/vydeje-dat-a-prirazeni-roli-v-externim-geoportalu</guid>
+      <pubDate>Fri, 12 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Přeshraniční editace s Královéhradeckým a Pardubickým krajem byla spuštěna</title>
+      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-s-kralovehradeckym-a-pardubickym-krajem-byla-spusten</link>
+      <description>Dne 9. 12. 2025 byla spuštěna přeshraniční editace mezi Správou železnic a Královéhradeckým krajem a dne 12. 12. 2025 byla spuštěna přeshraniční editace s Pardubickým krajem.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-s-kralovehradeckym-a-pardubickym-krajem-byla-spusten</guid>
+      <pubDate>Tue, 16 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace se Zlínským krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-se-zlinskym-krajem</link>
+      <description>K 9. 1. 2026 bude spuštěná přeshraniční editace mezi Správou železnic a Zlínským krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 5. do 9. 1. 2026 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-se-zlinskym-krajem</guid>
+      <pubDate>Wed, 17 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Validátor ŽXML je nyní plně funkční</title>
+      <link>https://www.spravazeleznic.cz/-/validator-zxml-je-nyni-plne-funkcni</link>
+      <description>Na webových stránkách Geoportálu DTMŽ je pro registrované uživatele nyní k dispozici plně funkční validátor ŽXML.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/validator-zxml-je-nyni-plne-funkcni</guid>
+      <pubDate>Mon, 29 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Přeshraniční editace se Zlínským krajem spuštěna</title>
+      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-se-zlinskym-krajem-spustena</link>
+      <description>Dne 12. 1. 2026 byla spuštěna přeshraniční editace mezi Správou železnic a Zlínským krajem.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-se-zlinskym-krajem-spustena</guid>
+      <pubDate>Mon, 12 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Příjem a výdej dat z DTMŽ bude probíhat výhradně prostřednictvím Geoportálu DTMŽ</title>
+      <link>https://www.spravazeleznic.cz/-/prijem-a-vydej-dat-z-dtmz-bude-probihat-vyhradne-prostrednictvim-geoportalu-dtmz</link>
+      <description>Od 19. 1. 2026 bude pro externí geodety příjem a výdej dat z IS DTMŽ probíhat výhradně prostřednictvím Geoportálu DTMŽ.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/prijem-a-vydej-dat-z-dtmz-bude-probihat-vyhradne-prostrednictvim-geoportalu-dtmz</guid>
+      <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chystá se přeshraniční editace s Ústeckým krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-usteckym-krajem</link>
+      <description>K 2. 2. 2026 bude spuštěná přeshraniční editace mezi Správou železnic a Ústeckým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 28.1. do 1. 2. 2026 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-usteckym-krajem</guid>
+      <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
