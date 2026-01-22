@@ -2,17 +2,15 @@ name: Update DTM RSS Feed
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Každý den v 8:00 ráno (UTC)
-  workflow_dispatch:      # Možnost spustit ručně z webu GitHubu
+    - cron: '0 8 * * *'
+  workflow_dispatch:
   push:
     branches:
-      - main              # Spustit při každém pushi do main větve
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    # Důležité pro GitHub Actions, aby mohlo zapisovat do repozitáře
     permissions:
       contents: write
 
@@ -28,7 +26,7 @@ jobs:
       - name: Instalace závislostí
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests beautifulsoup4 feedgen lxml
 
       - name: Spuštění skriptů
         run: |
@@ -39,6 +37,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add feed.xml feed_sz.xml news_cache.json
-          # Commitne se jen pokud se některý ze souborů změnil
+          # Přidáme soubory, pokud existují, abychom se vyhnuli chybě 'pathspec not matched'
+          git add feed.xml feed_sz.xml news_cache.json || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizace RSS feedů a cache: $(date +'%Y-%m-%d %H:%M')" && git push)
