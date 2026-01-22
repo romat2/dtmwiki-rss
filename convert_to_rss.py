@@ -9,6 +9,8 @@ import hashlib
 
 URL = "https://dtmwiki.cuzk.gov.cz/start"
 CACHE_FILE = "news_cache.json"
+# Datum, které se použije pro staré zprávy bez data při úplně prvním spuštění
+INITIAL_FALLBACK_DATE = datetime.datetime(2025, 1, 1, 12, 0, tzinfo=datetime.timezone.utc)
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
@@ -43,6 +45,8 @@ def generate_rss():
     try:
         cache = load_cache()
         new_cache = {}
+        # Zjistíme, zda jde o první spuštění (prázdná cache)
+        is_initial_run = not bool(cache)
         
         print(f"Stahuji DTMwiki: {URL}")
         response = requests.get(URL, headers=HEADERS, timeout=20)
@@ -71,7 +75,7 @@ def generate_rss():
         fg.title('DTM Wiki - Aktuality')
         fg.author({'name': 'DTM Wiki Monitor'})
         fg.link(href=URL, rel='alternate')
-        fg.description('RSS kanál s pamětí pro zprávy bez data.')
+        fg.description('RSS kanál s inteligentním datováním zpráv.')
         fg.language('cs')
 
         items = news_list.find_all("li")
@@ -81,18 +85,25 @@ def generate_rss():
             if not text:
                 continue
 
-            # Vytvoření unikátního ID pro zprávu
             item_id = hashlib.md5(text.encode('utf-8')).hexdigest()
             
-            # Určení data: 1. Text, 2. Cache, 3. Dnešek
+            # Logika pro určení data pub_date:
+            # 1. Datum nalezené v textu (nejvyšší priorita)
             pub_date = parse_date(text)
+            
             if not pub_date:
+                # 2. Datum z historie (pokud už zprávu známe z minula)
                 if item_id in cache:
                     pub_date = datetime.datetime.fromisoformat(cache[item_id])
                 else:
-                    pub_date = datetime.datetime.now(datetime.timezone.utc)
+                    # 3. Zpráva bez data nalezená poprvé:
+                    if is_initial_run:
+                        # Při úplně prvním spuštění dáme staré datum (aby nebyly nahoře)
+                        pub_date = INITIAL_FALLBACK_DATE
+                    else:
+                        # Pokud už monitorujeme déle a objeví se nová zpráva bez data, je aktuální
+                        pub_date = datetime.datetime.now(datetime.timezone.utc)
             
-            # Uložení do nové cache
             new_cache[item_id] = pub_date.isoformat()
 
             fe = fg.add_entry()
@@ -105,10 +116,9 @@ def generate_rss():
             fe.pubDate(pub_date)
             fe.updated(pub_date)
 
-        # Uložíme zprávy, které tam byly (aby se neměnilo datum i při příštím spuštění)
         save_cache(new_cache)
         fg.rss_file('feed.xml', pretty=True)
-        print("DTMwiki feed a cache aktualizovány.")
+        print(f"DTMwiki feed aktualizován. (Initial run: {is_initial_run})")
 
     except Exception as e:
         print(f"Chyba: {e}")
