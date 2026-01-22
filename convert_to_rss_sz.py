@@ -26,6 +26,9 @@ def generate_rss_sz():
         soup = BeautifulSoup(response.text, "html.parser")
         entries = soup.select(".szdc--aggregator-entry")
         
+        # Otočíme pořadí, aby nejnovější zpráva byla ve feedu vnímána jako "poslední/nejnovější"
+        entries.reverse()
+
         fg = FeedGenerator()
         fg.id(URL)
         fg.title('Správa železnic - DTM Aktuality')
@@ -33,10 +36,6 @@ def generate_rss_sz():
         fg.description('Novinky Správy železnic k DTM standardům.')
         fg.language('cs')
 
-        # Na webu SZ jsou nejnovější nahoře, takže ponecháme pořadí (nebo pro jistotu také reverse, 
-        # pokud by čtečka brala první položku v XML jako nejnovější bez ohledu na pubDate)
-        # Necháme feedgen, ať je přidává v pořadí z webu.
-        
         for entry in entries:
             link_tag = entry.select_one("a.szdc--article")
             if not link_tag: continue
@@ -62,7 +61,7 @@ def generate_rss_sz():
             fe.updated(pub_date)
 
         fg.rss_file('feed_sz.xml', pretty=True)
-        print("SZ feed hotov.")
+        print("SZ feed aktualizován (pořadí otočeno).")
 
     except Exception as e:
         print(f"Chyba SZ: {e}")
