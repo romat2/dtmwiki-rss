@@ -40,7 +40,6 @@ def generate_rss_sz_files():
         
         soup = BeautifulSoup(response.text, "html.parser")
         
-        # Hledáme tabulku s přílohami
         table = soup.select_one("table.szdc--attachments")
         if not table:
             print("CHYBA: Tabulka s přílohami nebyla nalezena.")
@@ -49,6 +48,9 @@ def generate_rss_sz_files():
         rows = table.select("tbody tr")
         print(f"Nalezeno {len(rows)} souborů.")
 
+        # Otočíme pořadí řádků, aby nejnovější byl ve feedu přidán jako poslední
+        rows.reverse()
+
         fg = FeedGenerator()
         fg.id(URL)
         fg.title('Správa železnic - DTMZ Datový model - Soubory')
@@ -56,7 +58,6 @@ def generate_rss_sz_files():
         fg.description('Nové soubory ke stažení z webu Správy železnic k datovému modelu DTMZ.')
         fg.language('cs')
 
-        # Projdeme řádky v pořadí, jak jsou na webu (nejnovější nahoře)
         for row in rows:
             filename_cell = row.select_one("td.szdc--filename")
             link_cell = row.select_one("td.szdc--filetype a")
@@ -69,20 +70,17 @@ def generate_rss_sz_files():
             if link.startswith('/'):
                 link = "https://www.spravazeleznic.cz" + link
             
-            # Unikátní ID z URL a názvu
             item_id = hashlib.md5((link + title).encode('utf-8')).hexdigest()
             
-            # Určení data pomocí cache (ignorujeme nespolehlivá data v názvu)
             if item_id in cache:
                 pub_date = datetime.datetime.fromisoformat(cache[item_id])
             else:
                 if is_initial_run:
-                    # Při prvním spuštění dáme staré datum, ale každému o minutu jiné, aby se zachovalo pořadí
-                    # (nejnovější nahoře na webu dostane nejvyšší čas)
+                    # Při prvním běhu dáme staré datum, ale každému jiné, aby se zachovalo pořadí
+                    # (nejnovější na webu - nyní na konci seznamu rows - dostane nejvyšší čas)
                     idx = rows.index(row)
-                    pub_date = INITIAL_FALLBACK_DATE - datetime.timedelta(minutes=idx)
+                    pub_date = INITIAL_FALLBACK_DATE + datetime.timedelta(minutes=idx)
                 else:
-                    # Skutečně nový soubor zachycený poprvé
                     pub_date = datetime.datetime.now(datetime.timezone.utc)
             
             new_cache[item_id] = pub_date.isoformat()
@@ -96,7 +94,7 @@ def generate_rss_sz_files():
 
         save_cache(new_cache)
         fg.rss_file('feed_sz_files.xml', pretty=True)
-        print(f"Feed souborů SZ hotov. (Initial run: {is_initial_run})")
+        print(f"Feed souborů SZ aktualizován (pořadí otočeno).")
 
     except Exception as e:
         print(f"Chyba SZ soubory: {e}")
