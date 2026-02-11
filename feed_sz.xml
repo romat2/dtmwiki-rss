@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Tue, 10 Feb 2026 08:37:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 08:35:10 +0000</lastBuildDate>
+    <item>
+      <title>Popis validátoru ŽXML</title>
+      <link>https://www.spravazeleznic.cz/-/popis-validatoru-zxml</link>
+      <description>Na stránky Geoportálu DTMŽ byl v návodech v sekci Nápověda zveřejněn popis Validátoru ŽXML.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/popis-validatoru-zxml</guid>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chystá se přeshraniční editace s Libereckým krajem</title>
       <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-libereckym-krajem</link>
@@ -141,13 +148,6 @@ Od 17. do 22. 9. 2025 bude pozastaven příjem GAD na SŽ.</description>
       <link>https://www.spravazeleznic.cz/-/-k-4-8-2025-bude-spustena-preshranicni-editace-mezi-spravou-zeleznic-a-krajem-praha-a-mezi-sz-a-stredoceskym-krajem</link>
       <description>K 4. 8. 2025 bude spuštěná přeshraniční editace mezi Správou železnic, hlavním městem Prahou a Středočeským krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci těchto dvou krajů odevzdávána od tohoto data, musí být navázána i na krajská data.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/-k-4-8-2025-bude-spustena-preshranicni-editace-mezi-spravou-zeleznic-a-krajem-praha-a-mezi-sz-a-stredoceskym-krajem</guid>
-      <pubDate>Tue, 29 Jul 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Konzultační schůzky pro geodety k DTMŽ</title>
-      <link>https://www.spravazeleznic.cz/-/-od-16-7-2025-vzdy-pravidelne-kazdou-stredu-od-7-30-probihaji-pro-geodety</link>
-      <description>Od 16. 7. 2025 vždy pravidelně každou středu od 7:30 probíhají pro geodety s odbornou způsobilostí dle předpisu SŽ Zam1 formou on-line konzultační schůzky k DTMŽ.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/-od-16-7-2025-vzdy-pravidelne-kazdou-stredu-od-7-30-probihaji-pro-geodety</guid>
       <pubDate>Tue, 29 Jul 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
