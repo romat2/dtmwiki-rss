@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Mon, 16 Feb 2026 08:33:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 08:32:18 +0000</lastBuildDate>
+    <item>
+      <title>Chystá se přeshraniční editace s krajem Vysočina</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-krajem-vysocina</link>
+      <description>K 27. 2. 2026 bude spuštěná přeshraniční editace mezi Správou železnic a Krajem Vysočina. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správu železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 24. 2. do 26. 2. 2026 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-krajem-vysocina</guid>
+      <pubDate>Mon, 16 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chystá se přeshraniční editace s Jihomoravským krajem</title>
       <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-jihomoravskym-krajem</link>
@@ -141,13 +148,6 @@ Od 17. do 22. 9. 2025 bude pozastaven příjem GAD na SŽ.</description>
       <link>https://www.spravazeleznic.cz/-/aktualizace-operativnich-informaci-pro-prechodne-obdobi-dtmz</link>
       <description>K 4.8.2025 byly vydány aktualizované operativní informace pro přechodné období DTMŽ, ve kterých byl doplněn dokument týkající se přeshraniční editace dat a upraveny dokumenty týkajících se základních informací pro dodavatele geodetických dokumentací a ověření homogenity GAD.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/aktualizace-operativnich-informaci-pro-prechodne-obdobi-dtmz</guid>
-      <pubDate>Mon, 04 Aug 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zpřístupnění webového fotokatalogu</title>
-      <link>https://www.spravazeleznic.cz/-/zpristupneni-weboveho-fotokatalogu</link>
-      <description>Od 4.8.2025 je pro veřejnost zpřístupněn webový fotokatalog (technický standard „Modelový objektový železniční katalog“ - Metodický pokyn SŽ M20/MP014).</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/zpristupneni-weboveho-fotokatalogu</guid>
       <pubDate>Mon, 04 Aug 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
