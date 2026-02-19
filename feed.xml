@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Wed, 18 Feb 2026 08:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 08:30:50 +0000</lastBuildDate>
+    <item>
+      <title>17.2.2026 - upřesněna kontrola3.8 Duplicita bodů. Doplněna kontrola duplicity definičních bodů a upřesněna kotrola pro podrobné body ZPS, nebude se kontrolovat duplicita identických bodů a výškových bodů na terénu.</title>
+      <link>https://dtmwiki.cuzk.gov.cz/start</link>
+      <description> 17.2.2026 - upřesněna kontrola &lt;a class="wikilink1" data-wiki-id="01_pravidla:04_kontroly:03_kontroly_topolog" href="https://dtmwiki.cuzk.gov.cz/01_pravidla/04_kontroly/03_kontroly_topolog#duplicita_bodu" title="01_pravidla:04_kontroly:03_kontroly_topolog"&gt;3.8 Duplicita bodů&lt;/a&gt;. Doplněna kontrola duplicity definičních bodů a upřesněna kotrola pro podrobné body ZPS, nebude se kontrolovat duplicita identických bodů a výškových bodů na terénu.</description>
+      <guid isPermaLink="false">566a8efa728225d06d104c9ab5998573</guid>
+      <pubDate>Tue, 17 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>5.2.2026 - upřesněna kontrola4.4 Plocha s chybným ohraničeníma v souvislosti s tím i pravidla pro zpracování dat1.1.4. Plošné objekty ZPSa doplněna nová kontrola4.10 Posun definičního bodu. Tyto úpravy vzešly z potřeby sladit kontroly mezi systémy pro přeshraniční editaci.</title>
       <link>https://dtmwiki.cuzk.gov.cz/start</link>
