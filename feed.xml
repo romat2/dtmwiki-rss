@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Wed, 11 Mar 2026 08:27:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 08:29:39 +0000</lastBuildDate>
+    <item>
+      <title>10.3.2026 – upřesněna kontrola1.7. Kontrola umístění změn v JVF DTM v oblasti změny zakreslené AZIa související dokumentPráce s objektem “Oblast změny” (oblast aktualizace ZPS).</title>
+      <link>https://dtmwiki.cuzk.gov.cz/start</link>
+      <description> 10.3.2026 – upřesněna kontrola &lt;a class="wikilink1" data-wiki-id="01_pravidla:04_kontroly:01_kontroly_jvf" href="https://dtmwiki.cuzk.gov.cz/01_pravidla/04_kontroly/01_kontroly_jvf#kontrola_umisteni_zmen_v_jvf_dtm_v_oblasti_zmeny_zakreslene_azi" title="01_pravidla:04_kontroly:01_kontroly_jvf"&gt;1.7. Kontrola umístění změn v JVF DTM v oblasti změny zakreslené AZI&lt;/a&gt; a související dokument &lt;a class="wikilink1" data-wiki-id="01_pravidla:02_stav_logika:03_prace_spec_objekty" href="https://dtmwiki.cuzk.gov.cz/01_pravidla/02_stav_logika/03_prace_spec_objekty#prace_s_objektem_oblast_zmeny_oblast_aktualizace_zps" title="01_pravidla:02_stav_logika:03_prace_spec_objekty"&gt;Práce s objektem “Oblast změny” (oblast aktualizace ZPS)&lt;/a&gt;.</description>
+      <guid isPermaLink="false">f0e55d89e11d61a171bd5dbf20486408</guid>
+      <pubDate>Tue, 10 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>17.2.2026 - upřesněna kontrola3.8 Duplicita bodů. Doplněna kontrola duplicity definičních bodů a upřesněna kotrola pro podrobné body ZPS, nebude se kontrolovat duplicita identických bodů a výškových bodů na terénu.</title>
       <link>https://dtmwiki.cuzk.gov.cz/start</link>
