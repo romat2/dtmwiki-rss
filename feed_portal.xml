@@ -1,0 +1,563 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Portál DTM Praha a SČK - Aktuality</title>
+    <link>https://portal.dtm-praha-sck.cz/archiv-zprav</link>
+    <description>Novinky z Portálu DTM pro Prahu a Středočeský kraj.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>cs</language>
+    <lastBuildDate>Sat, 14 Mar 2026 17:49:02 +0000</lastBuildDate>
+    <item>
+      <title>Výpadek síťové konektivity</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/521</link>
+      <description>Z důvodu výpadku síťové infrastruktury nejsou dostupné webové služby v mapových aplikacích. Na odstranění problému pracujeme. Omlouváme se za vzniklé problémy.</description>
+      <guid isPermaLink="false">521</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evropský projekt: Vytvoření krajských komponent evidence připravovaných staveb infrastruktury</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/501</link>
+      <description>Institut plánování a rozvoje hl. m. Prahy (IPR Praha) realizuje klíčový projekt zaměřený na digitalizaci a zefektivnění stavebního řízení.
+
+Projekt: **Vytvoření krajských komponent evidence připravovaných staveb infrastruktury**
+
+**Cíle projektu:**
+1.  Vytvořit nezbytnou novou funkci informačního systému Digitální technické mapy (DTM) Prahy a Středočeského kraje pro podporu vedení údajů o připravovaných stavbách infrastruktury.
+2.  Zajistit soulad s evropskou směrnicí a nařízením EU 2024/1309 (GIA) o gigabitové infrastruktuře a související českou novelou zákona č. 202/2023 Sb..
+3.  Realizací dojde k doplnění nezbytných služeb a zajištění funkčnosti vyžadované novou legislativou, včetně integrace s formátem ve verzi JVF 1.5.
+
+Na tento projekt je poskytována finanční podpora z fondů EU prostřednictvím Národního plánu obnovy (NextGenerationEU).
+
+Registrační číslo: _CZ.31.1.0/0.0/0.0/25_161/0011693_
+
+Celková předpokládaná dotace EU: _2 000 000,00 Kč_
+
+![NPO_EU_fin](https://portal.dtm-praha-sck.cz/backend/getimage/83)</description>
+      <guid isPermaLink="false">501</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aktualizace doporučených smluvních podmínek pro nové stavby</title>
+      <link>https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty</link>
+      <description>V sekci Dokumenty a odkazy jsou k dispozici doporučené smluvní podmínky pro geodetické měření nových staveb ve vlastnictví HMP a správě městských částí.
+
+Smluvní podmínky byly nově doplněny o požadavek zpracování dat dopravní infrastruktury v souladu s metodikou zpracování těchto dat v intravilánu velkých měst, která je taktéž k dispozici ke stažení.</description>
+      <guid isPermaLink="false">481</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pro zhotovitele GAD - oblast změny</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/461</link>
+      <description>Doporučujeme všem zhotovitelům GAD vymezit oblast změny pouze v nezbytném rozsahu a zahrnout jen prvky, které jsou aktualizovány.
+
+Objekty dotčené změnou jsou po dobu kontrol v oblasti zámku a jsou uzamčeny pro úpravy ostatním zhotovitelům. Pokud navíc oblast změny padne do území jiného kraje či vymezeného území správců ŘSD, SŽ (SVÚ), přechází kontrola GAD do režimu přeshraniční editace. Velikost území i přeshraniční editace jsou faktory ovlivňující délku kontrol ze strany správce DTM kraje.
+
+ 
+
+Pro DTM Prahy a Středočeského kraje existují WMS služby zobrazující zámky i oblasti SVÚ. Doporučujeme zohledňovat tyto oblasti při zákresu oblasti změny.
+
+oblast zámků: https://isdtmk.dtm-praha-sck.cz/api/wms/v1/wms_rizeni_zamek/service.svc/get?request=GetCapabilities&amp;service=WMS
+
+oblasti SVÚ: https://isdtmk.dtm-praha-sck.cz/api/wms/v1/dtm_vymezena_uzemi_zps/service.svc/get?SERVICE=WMS&amp;REQUEST=GetCapabilities</description>
+      <guid isPermaLink="false">461</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blokace obsahu v Chromium prohlížečích (Chrome, Edge, ...)</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/441</link>
+      <description>Zaznamenali jsme případy blokace obsahu v prohlížečích s jádrem Chromium (Chrome, Edge, ...). V případě potíží s načtením použijte jiné prohlížeče (Firefox, Opera, Safari, ...).</description>
+      <guid isPermaLink="false">441</guid>
+      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Odstávka mapové aplikace 26.8.</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/421</link>
+      <description>Dnes 26.8. od 18:00 do 19:00 dojde k nutné servisní odstávce síťové komunikace mapových služeb DTM. Po tuto dobu nebude funkční mapová aplikace.
+
+Za komplikace se omlouváme.</description>
+      <guid isPermaLink="false">421</guid>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Změna u dokladů pro kolaudaci pro stavební úřady platná od 1.8.2025</title>
+      <link>https://www.zakonyprolidi.cz/cs/2025-87#cl13-26</link>
+      <description>Ve Sbírce zákonů pod č. 87/2025 Sb. s účinností ke dni 1. 8. 2025 vyšla změna stavebního zákona (283/2021 Sb.) ve věci úpravy § 232 (kolaudace). 
+Od 1. 8. 2025 tak nebude možné dokládat stavebnímu úřadu pro potřeby kolaudace pouze geodetickou část DSPS, ale bude nutné zapsat údaje o dopravní a technické infrastruktuře (DTI) do DTM kraje. Stavební úřad bude od stavebníka požadovat ID podání do DTM kraje.</description>
+      <guid isPermaLink="false">361</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vzor prohlášení oprávněného projektanta pro výdej neveřejných dat</title>
+      <link>https://app.iprpraha.cz/apl/mnt/App_PortalDTM/V%C3%BDdej%20neve%C5%99ejn%C3%BDch%20dat%20S%C4%8CK%20-%20prohl%C3%A1%C5%A1en%C3%AD%20opr%C3%A1vn%C4%9Bn%C3%A9ho%20projektanta%20-%20VZOR.docx</link>
+      <description>Pro jednodušší schvalování výdeje neveřejných dat pro účel projektová činnost staveb v IS DTM jsme pro vás připravili [vzor formuláře Prohlášení oprávněného projektanta](https://app.iprpraha.cz/apl/mnt/App_PortalDTM/V%C3%BDdej%20neve%C5%99ejn%C3%BDch%20dat%20S%C4%8CK%20-%20prohl%C3%A1%C5%A1en%C3%AD%20opr%C3%A1vn%C4%9Bn%C3%A9ho%20projektanta%20-%20VZOR.docx).
+
+Vyplněné prohlášení ve formátu pdf a podepsané elektronickým podpisem, prosíme, přiložte k žádosti o výdej neveřejných dat. O výdej neveřejných dat, prosíme, žádejte pouze na [Portálu IS DMVS](https://dmvs.cuzk.gov.cz/portal).
+
+Děkujeme za pochopení.</description>
+      <guid isPermaLink="false">401</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neveřejná data technické infrastruktury v mapovém portálu DMVS</title>
+      <link>https://cuzk.gov.cz/DMVS/Portal-DMVS/Nastaveni-prihlasovani-do-DMVS-pres-JIP.aspx</link>
+      <description>Nová verze DMVS umožňuje OVM přístup k neveřejným datům technické infrastruktury na mapovém portálu DMVS.
+Každému oprávněnému uživateli je nutné zaškrtnout v JIP/KAAS navíc položku ‚Výdej dat bez žádosti‘. Zažádejte si u svého IT oddělení o tuto možnost. K dispozici je [návod pro lokální administrátory JIP/KAAS](https://cuzk.gov.cz/DMVS/Portal-DMVS/Nastaveni-prihlasovani-do-DMVS-pres-JIP.aspx).
+
+Na [mapovém portálu DMVS](https://dmvs.cuzk.gov.cz/mapovy-portal) se uživateli následně objeví dlaždice ‚Technická infrastruktura včetně neveřejné‘ a v mapě jsou viditelné všechny dostupné sítě.</description>
+      <guid isPermaLink="false">382</guid>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části</title>
+      <link>https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty</link>
+      <description>KDY:  **21. 3. 2025**
+
+KDE: ONLINE
+
+Prezentaci i záznam ze semináře najdete v sekci Odkazy a dokumenty společně se všemi ostatními podklady proběhlých seminářů.</description>
+      <guid isPermaLink="false">381</guid>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář pro městské části</title>
+      <link>https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzQ1NjI0MDQtYWZkMC00Mjk4LThlMmEtMDc3MDI0MDRmMjJh%40thread.v2/0?context=%7b%22Tid%22%3a%2240f47e5e-0f35-43d2-91f1-3536f290a46f%22%2c%22Oid%22%3a%220a11c0aa-cbc8-4992-ac64-536e6b96e087%22%7d</link>
+      <description>Dne **21. 3. 2025 od 10:00 do 11:00** proběhne online další z řady seminářů k DTM pro městské části. 
+
+Odkaz na seminář:
+[**Připojit se ke schůzce**](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzQ1NjI0MDQtYWZkMC00Mjk4LThlMmEtMDc3MDI0MDRmMjJh%40thread.v2/0?context=%7b%22Tid%22%3a%2240f47e5e-0f35-43d2-91f1-3536f290a46f%22%2c%22Oid%22%3a%220a11c0aa-cbc8-4992-ac64-536e6b96e087%22%7d)</description>
+      <guid isPermaLink="false">341</guid>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plánovaná odstávka mapových služeb</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/321</link>
+      <description>Dnes 29.1. od 18:00 do 20:30 dojde za účelem upgrade systému k odstávce mapových služeb aplikace Digitální technické mapy. Za případné komplikace se omlouváme.</description>
+      <guid isPermaLink="false">321</guid>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nová verze IS DMVS od ČÚZK </title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/301</link>
+      <description>Český úřad zeměměřický a katastrální spustil novou verzi 1.10 IS DMVS.
+
+Přehled všech novinek je uveden v [dokumentu na stránkách CÚZK](https://cuzk.gov.cz/DMVS/Portal-DMVS/Prehled-zmen-IS-DMVS-ve-verzi-1-10.aspx).</description>
+      <guid isPermaLink="false">301</guid>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Usnesení RHMP č.10/2025 o editorské činnosti pro městské části</title>
+      <link>https://app.iprpraha.cz/apl/mnt/App_PortalDTM/RHMP_PDF_eBook-Usneseni-c10.pdf</link>
+      <description>Rada hlavního města Prahy v úterý 14.1.2025 schválila Usnesení č.10 k zajištění prvotního naplnění dat do digitální technické mapy kraje a zajištění role editora dat
+dopravní a technické infrastruktury pro městské části hl.m. Prahy.
+Schválené usnesení najdete v [dokumentech ke stažení](https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty).
+IPR Praha je tímto aktem oficiálně pověřen prvotním naplněním dat městských částí d DTM kraje a rolí Editora pro všechny městské části.
+Ke službě se prosím přihlašte na [servicedesku MHMP](https://sd.mepnet.cz/) aktivací Katalogového listu **Editor dopravní a technické infrastruktury**.</description>
+      <guid isPermaLink="false">285</guid>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Usnesení RHMP č.10/2025 o editorské činnosti pro městské části</title>
+      <link>https://app.iprpraha.cz/apl/mnt/App_PortalDTM/RHMP_PDF_eBook-Usneseni-c10.pdf</link>
+      <description>Rada hlavního města Prahy v úterý 14.1.2025 schválila Usnesení č.10 k zajištění prvotního naplnění dat do digitální technické mapy kraje a zajištění role editora dat
+dopravní a technické infrastruktury pro městské části hl.m. Prahy.
+Schválené usnesení najdete v [dokumentech ke stažení](https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty).
+IPR Praha je tímto aktem oficiálně pověřen prvotním naplněním dat městských částí d DTM kraje a rolí Editora pro všechny městské části.
+Ke službě se prosím přihlašte na [servicedesku MHMP](https://sd.mepnet.cz/) aktivací Katalogového listu **Editor dopravní a technické infrastruktury**.</description>
+      <guid isPermaLink="false">287</guid>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Editorská činnost DTM pro městské části
+</title>
+      <link>https://sd.mepnet.cz/</link>
+      <description>Editorem dat dopravní a technické infrastruktury ve správě městských částí je IPR Praha.
+Prosíme všechny městské části, aby si formálně o tuto službu zažádaly dle pravidel Celoměstské koncepce rozvoje informačních systémů pro potřeby hl.  m.  Prahy a městských částí na období do roku 2025 takto:
+
+Přihlašte se na servicedesk MHMP: https://sd.mepnet.cz/
+
+Zažádejte si o aktivaci Katalogového listu – editor dopravní a technické infrastruktury.
+
+Děkujeme!</description>
+      <guid isPermaLink="false">261</guid>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části</title>
+      <link>https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty</link>
+      <description>KDY:  **27. 11. 2024**
+
+KDE: ONLINE
+
+Prezentaci i záznam ze semináře najdete v sekci Odkazy a dokumenty společně se všemi ostatními podklady proběhlých seminářů.</description>
+      <guid isPermaLink="false">241</guid>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář DTM pro městské části</title>
+      <link>https%3A%2F%2Fteams.microsoft.com%2Fl%2Fmeetup-join%2F19%253ameeting_YThjNWQwNDctZjZiZi00YjRiLTkwZGItY2MxZjY0Zjg4ZTk0%2540thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%252240f47e5e-0f35-43d2-91f1-3536f290a46f%2522%252c%2522Oid%2522%253a%25220a11c0aa-cbc8-4992-ac64-536e6b96e087%2522%257d</link>
+      <description>Dne **27. 11. 2024 od 10:00 do 11:00** proběhne online další z řady seminářů k DTM pro městské části. 
+
+Odkaz na seminář:
+[**Připojit se ke schůzce**](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YThjNWQwNDctZjZiZi00YjRiLTkwZGItY2MxZjY0Zjg4ZTk0%40thread.v2/0?context=%7b%22Tid%22%3a%2240f47e5e-0f35-43d2-91f1-3536f290a46f%22%2c%22Oid%22%3a%220a11c0aa-cbc8-4992-ac64-536e6b96e087%22%7d)</description>
+      <guid isPermaLink="false">221</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nová verze IS DMVS od ČÚZK</title>
+      <link>https%3A%2F%2Fcuzk.gov.cz%2FDMVS%2FPortal-DMVS%2FPrehled-zmen-IS-DMVS-ve-verzi-1-9.aspx</link>
+      <description>Český úřad zeměměřický a katastrální spustil novou verzi IS DMVS obsahující důležité novinky ve správě subjektu a možnosti nastavení kontaktů pro vyjadřování (kontaktní údaje pro části DTI).
+
+Přehled všech novinek je uveden v [dokumentu na stránkách CÚZK](https://cuzk.gov.cz/DMVS/Portal-DMVS/Prehled-zmen-IS-DMVS-ve-verzi-1-9.aspx).</description>
+      <guid isPermaLink="false">182</guid>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Přístup do helpdesku pro správce DTI</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/61</link>
+      <description>Pro hlášení chyb při testování zápisu DTI do IS DTM Prahy a Středočeského kraje byl zřízen helpdesk Jira TKP geo.
+
+Žádost o přístup do helpdesku posílejte na email: idtmpsk.jira.sitari@tkpgeo.cz. Uvedená e-mailová adresa neslouží k samotnému hlášení incidentů, ale pouze pro zaslání žádosti na zřízení přístupu do Jira.
+
+Na základě žádosti Vám bude zřízen přístup do nástroje Jira (jméno + email). Po nastavení přístupu Vám přijde notifikace/pozvánka do Jira.
+
+**Chyby zjištěné v rámci testu prosíme zadávat přes Jira do sekce „Incident – síťaři“**.</description>
+      <guid isPermaLink="false">61</guid>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části</title>
+      <link>https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty</link>
+      <description>KDY:  **9. 8. 2024 od 9:00 do 10:00.**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00
+
+Prezentaci i záznam ze semináře najdete v sekci Odkazy a dokumenty společně se všemi ostatními podklady proběhlých seminářů.</description>
+      <guid isPermaLink="false">162</guid>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář pro městské části 9. 8. 2024</title>
+      <link>https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzAxNzhhODktNjJhNy00Mjg2LWJkMzktZjlkZDQyYWUwOGVm%40thread.v2/0?context=%7b%22Tid%22%3a%2240f47e5e-0f35-43d2-91f1-3536f290a46f%22%2c%22Oid%22%3a%220a11c0aa-cbc8-4992-ac64-536e6b96e087%22%7d</link>
+      <description>Zveme Vás na další seminář pro městské části, konaný dne **9. 8. 2024 od 9:00 do 11:00** v prostorách CAMPu na adrese **Vyšehradská 51/2075, Praha 2, 128 00**.
+
+Online účast je možná na MS Teams pomocí odkazu v detailu zprávy.
+Registrace není nutná.
+
+Obsahem semináře pro městské části bude:
+ - Aktuální stav provozu DTM kraje
+ - Vyjadřování k existenci sítí - Části DTI a kontaktní údaje
+ - Stav konsolidace (převodu) dat městských částí a Rozsahy editace DTI
+ - Stav projektu nového mapování dopravní a technické infrastruktury pro DTM kraje (II. vlna mapování)
+ - Různé, diskuse</description>
+      <guid isPermaLink="false">142</guid>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portál DTM: Zpravodaj Hl. m. Prahy a Středočeského kraje (č. 240710)</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/141</link>
+      <description>
+Dobrý den,
+dovolujeme si Vám zaslat zpravodaj se souhrnem aktuálních zpráv zveřejněných na Portálu Digitální technické mapy Hl. m. Prahy a Středočeského kraje.
+
+Dne 1. 7. 2024 jsme, stejně jako ostatní kraje, oficiálně zahájili provoz informačního systému Digitální technické mapy (IS DTM).
+
+Doporučujeme všem vlastníkům, resp. správcům a provozovatelům (VSP) dopravní a technické infrastruktury (DTI), aby si ověřili, že provedli registraci do IS DMVS a mají v &lt;a href="https://dmvs.cuzk.gov.cz/portal" target="_blank"&gt;Portálu DMVS&lt;/a&gt; vymezené části DTI a rozsahy editace DTI. V případě, že jste tak ještě neučinili, registrujte se co nejdříve (návody jsou k dispozici &lt;a href="https://cuzk.cz/DMVS/Portal-DMVS.aspx" target="_blank"&gt;ZDE&lt;/a&gt;).
+
+Od 1. 7. 2024 již mohou stavebníci žádat s využitím DTM kraje vyjádření k existenci inženýrských sítí v zájmovém území, jakožto podkladu pro stavební řízení. V případě, že jako vlastník nebudete mít v IS DMVS vymezené části DTI, může nastat situace, že vás stavebníci neosloví za účelem vyjádření k existenci sítí DTI ve vašem vlastnictví.
+
+Z celkového počtu 1144 obcí ve Středočeským kraji:
+- 217 obcí není vůbec registrováno do IS DMVS
+- 802 obcí nemá v IS DMVS vymezené části DTI
+
+**Podívejte se na prezentace a videozáznamy ze seminářů:**
+&lt;a href="https://portal.dtm-praha-sck.cz/odkazy-a-dokumenty" target="_blank"&gt;Odkazy a dokumenty&lt;/a&gt;
+
+**Doporučení pro obce:**
+Víte, jaké pro obce a městské části spravující DTI vyplývají povinnosti? Zjistěte více na našem portále na stránkách pro [Obce](https://portal.dtm-praha-sck.cz/obce) a [Městské části](https://portal.dtm-praha-sck.cz/mestske-casti).
+
+Archiv všech zpráv zveřejněných na Portálu DTM najdete [ZDE](https://portal.dtm-praha-sck.cz/archiv-zprav)
+
+S pozdravem
+Tým DTM</description>
+      <guid isPermaLink="false">141</guid>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro geodety II</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/122</link>
+      <description>KDY:  **26. 6. 2024 od 9:00 do 13:30.**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00
+
+&lt;a href="https://cloud.iprpraha.cz/index.php/s/CB6H415zNgYWOOT" target="_blank"&gt;**Prezentace**&lt;/a&gt;
+
+&lt;a href="https://vimeo.com/969799567/d801bdf2cd?share=copy" target="_blank"&gt;**Záznam**&lt;/a&gt;
+
+Doplňujeme upozornění k dotazu předávání dokumentací GAD od 1.7. pro již probíhající stavby vzhledem k novému stavebnímu zákonu:
+
+**Stavby povolené podle zákona č. 183/2006 Sb., u kterých je podána žádost o kolaudaci po 1.7. 2024 budou kolaudovány již podle nového stavebního zákona. Tj. bude zde vyžadována i dokumentace GAD pro DTM kraje.**</description>
+      <guid isPermaLink="false">122</guid>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portál DTM: Zpravodaj Hl. m. Prahy a Středočeského kraje (č. 240625)</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/121</link>
+      <description>Dobrý den,
+posíláme vám první zpravodaj se souhrnem zpráv zveřejněných na Portálu DTM Hl. m. Prahy a Středočeského kraje. 
+
+V pondělí (1. 7. 2024) bude zahájen provoz DTM krajů. Víte, jaké z toho pro obce a městské části spravující dopravní a technickou infrastrukturu vyplývají povinnosti? Zjistěte více na našem portále v sekci [Obce](https://portal.dtm-praha-sck.cz/obce) nebo [Městské části](https://portal.dtm-praha-sck.cz/mestske-casti).
+
+**Podívejte se na videozáznamy ze seminářů:**
+- [Seminář o DTM pro městské části Hl. m. Prahy](https://portal.dtm-praha-sck.cz/archiv-zprav/102)
+Datum: 20. 6. 2024: Praha
+- [Seminář o DTM pro geodety - 1. část](https://portal.dtm-praha-sck.cz/archiv-zprav/84)
+Datum: 11. 6. 2024: Praha, Středočeský kraj
+- [Seminář o DTM pro správce sítí](https://portal.dtm-praha-sck.cz/archiv-zprav/41)
+Datum: 30. 5. 2024: Praha, Středočeský kraj
+
+**Doporučení pro obce:**
+- [U koho může obec správu agendy spojené s DTM outsourcovat?](https://portal.dtm-praha-sck.cz/archiv-zprav/29)
+Datum: 16. 5. 2024: Středočeský kraj
+- [Video návod na registraci obce do ISDMVS](https://www.youtube.com/watch?v=KXEmGsJjYPs)
+Datum: 20.5.2024: YouTube kanál KÚSK 
+
+Archiv všech zpráv zveřejněných na našem Portálu DTM najdete [ZDE](https://portal.dtm-praha-sck.cz/archiv-zprav)
+
+S pozdravem 
+Tým DTM</description>
+      <guid isPermaLink="false">121</guid>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části</title>
+      <link>https://vimeo.com/963067492/a5592f67d8?share=copy</link>
+      <description>KDY:  **20. 6. 2024 od 9:00 do 10:00.**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00
+</description>
+      <guid isPermaLink="false">102</guid>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>test test test</title>
+      <link>https://portal.dtm-praha-sck.cz</link>
+      <description>Dobrý den,
+posíláme vám první zpravodaj se souhrnem zpráv zveřejněných na Portále DTM pro Hl. m. Prahu a Středočeský kraj. 
+
+- [U koho může obec správu agendy spojené s DTM outsourcovat?](https://portal.dtm-praha-sck.cz/archiv-zprav/29)
+Datum: 16.5.2024: Středočeský kraj
+
+- [Video záznam ze semináře pro správce sítí](https://portal.dtm-praha-sck.cz/archiv-zprav/41)
+Datum: 30.5.2024: Praha, Středočeský kraj
+
+Archiv všech zpráv zveřejněných na našem Portálu DTM najdete [ZDE](https://portal.dtm-praha-sck.cz/archiv-zprav)
+
+**Související odkazy:**
+[Video návod na registraci obce do ISDMVS](https://www.youtube.com/watch?v=KXEmGsJjYPs)
+Datum: 20.5.2024: YouTube kanál KÚSK 
+
+S pozdravem 
+Tým DTM</description>
+      <guid isPermaLink="false">101</guid>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>U koho může obec správu agendy spojené s DTM outsourcovat?</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/29</link>
+      <description>Pokud obec nespravuje DTM sama, za pomoci vlastních zdrojů, může pověřit externí subjekt (např. Sdružení místních samospráv, komerční firmy specializující se na DTM problematiku nebo případně správce sítí, kteří tuto službu obcím nabízejí).
+
+•  Specializovaní dodavatelé mohou obcím pomoci s plněním povinností dle zákona č. 47/2020 Sb. a vyhlášky č. 393/2020 Sb.
+•  Nabízejí podporu a školení pracovníků, registraci do IS DMVS, založení rozsahů editace DTI a role editora DTM.
+•  Zajišťují pořízení dat o infrastruktuře v digitální podobě a JVF DTM.
+•  Pomáhají s převodem existujících dat do aktuální verze jednotného výměnného formátu (JVF) a s prvotním nahráním dat do DTM kraje.
+•  Zajišťují průběžnou aktualizaci dat a přejímku geodetické aktualizační dokumentace.</description>
+      <guid isPermaLink="false">29</guid>
+      <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář pro geodety II. - 26. 6. 2024</title>
+      <link>https://forms.office.com/e/We8CigcizM</link>
+      <description>Hlavní město Praha, zastoupené Institutem plánování a rozvoje hl. m. Prahy a Středočeský kraj, ve spolupráci s Českou komorou zeměměřičů a Českým úřadem zeměměřickým a katastrálním si Vás dovolují pozvat na seminář, jehož obsahem budou praktické ukázky podání GAD, výdeje dat DTM, kontrola dat DTM a další.
+
+**Středa 26. června od 9:00** online nebo osobně v CAMP Praha, Vyšehradská 51, Praha 2.
+
+K účasti se prosím registrujte.</description>
+      <guid isPermaLink="false">85</guid>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro geodety I</title>
+      <link>https://cloud.iprpraha.cz/index.php/s/r1RwKUOCLjTvsTV</link>
+      <description>KDY:  **6. 6. 2024 od 9:20 do 12:30.**
+
+KDE: Magistrát hl. m. Prahy, Mariánské náměstí 2, Praha 1</description>
+      <guid isPermaLink="false">84</guid>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DTM Novinky - Praha a Středočeský kraj (č. 01/24)</title>
+      <link>https://portal.dtm-praha-sck.cz</link>
+      <description>Dobrý den,
+posíláme vám první zpravodaj se souhrnem zpráv zveřejněných na Portále DTM pro Hl. m. Prahu a Středočeský kraj. 
+
+- [U koho může obec správu agendy spojené s DTM outsourcovat?](https://portal.dtm-praha-sck.cz/archiv-zprav/29)
+Datum: 16.5.2024: Středočeský kraj
+
+- [Video záznam ze semináře pro správce sítí](https://portal.dtm-praha-sck.cz/archiv-zprav/41)
+Datum: 30.5.2024: Praha, Středočeský kraj
+
+Archiv všech zpráv zveřejněných na našem Portálu DTM najdete [ZDE](https://portal.dtm-praha-sck.cz/archiv-zprav)
+
+**Související odkazy:**
+[Video návod na registraci obce do ISDMVS](https://www.youtube.com/watch?v=KXEmGsJjYPs)
+Datum: 20.5.2024: YouTube kanál KÚSK 
+
+S pozdravem 
+Tým DTM</description>
+      <guid isPermaLink="false">83</guid>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář pro městské části 20. 6. 2024</title>
+      <link>https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FhZjhhZjAtMmY1My00MDFmLWE4YmUtNDhkZDg2MGM2YmNh%40thread.v2/0?context=%7b%22Tid%22%3a%2240f47e5e-0f35-43d2-91f1-3536f290a46f%22%2c%22Oid%22%3a%220a11c0aa-cbc8-4992-ac64-536e6b96e087%22%7d</link>
+      <description>Zveme Vás na další seminář pro městské části, konaný dne **20. 6. 2024 od 9:00 do 11:00** v prostorách CAMPu na adrese **Vyšehradská 51/2075, Praha 2, 128 00**.
+
+Online účast je možná na MS Teams pomocí odkazu v detailu zprávy.
+
+Registrace není nutná
+
+Obsahem semináře pro městské části bude:
+ - Stav příprav na provoz DTM kraje
+ - IS DMVS - nastavení Části DTI a Rozsahy editace DTI pro městské části
+ - IS DMVS – změny Správce a Vlastníka
+ - Stav příprav na převod stávajících dat dopravní a technické infrastruktury městských částí do nové DTM kraje (konsolidace dat)
+ - Stav projektu nového mapování dopravní a technické infrastruktury pro DTM kraje (II. vlna mapování)
+ - Různé, diskuse</description>
+      <guid isPermaLink="false">82</guid>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novela vyhlášky o DTM č. 140/2024 Sb.</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/81</link>
+      <description>Český úřad zeměměřický a katastrální informuje, že ve Sbírce zákonů vyšla pod č. [140/2024 Sb.](https://www.zakonyprolidi.cz/cs/2024-140) vyhláška, kterou se mění vyhláška č. 393/2020 Sb., o digitální technické mapě kraje, ve znění vyhlášky č. 186/2023 Sb.
+
+Tato vyhláška nabývá účinnosti dnem 1. července 2024, s výjimkou ustanovení čl. I bodu 9, které nabývá účinnosti dnem 1. ledna 2025.
+
+Hlavní změny v novele se týkají vedení údajů o objektech a zařízeních technické infrastruktury (TI) v digitální technické mapě (DTM), které jsou považované za **kritickou infrastrukturu**.
+
+Pro více informací doporučujeme navštívit web [ČÚZK – IS DMVS](https://www.cuzk.cz/DMVS/Novinky/vyhlaska-c-140-2024-Sb.aspx).</description>
+      <guid isPermaLink="false">81</guid>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Odstávka IS DTM PSK</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/62</link>
+      <description>Z důvodu změn na infrastruktuře pro IS DTM PSK ze strany dodavatele této infrastruktury, bude probíhat rovněž odstávka IS DTM PSK na TEST i PROD od dnešních 12:00. Předpokládaná doba trvání odstávky je do konce víkendu.</description>
+      <guid isPermaLink="false">62</guid>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seminář pro geodety I. - 6. 6. 2024</title>
+      <link>https://docs.google.com/forms/d/e/1FAIpQLSe6MlNT-6mF-WsnEKSPEV97Mpr_kuh0XhmA1pEddJeZzL36kw/viewform</link>
+      <description>Seminář týkající se problematiky pořizování a předávání dat pro digitální technickou mapu krajů (DTM), zaměřený na činnost geodeta a jeho úlohu v procesu pořizování dat do DTM.&lt;br /&gt;**čtvrtek 6. června od 9:20** online nebo osobně na Magistrátu HMP, Mariánské náměstí 2.&lt;br /&gt;Účast na základě registrace prostřednictvím [**tohoto formuláře**](https://docs.google.com/forms/d/e/1FAIpQLSe6MlNT-6mF-WsnEKSPEV97Mpr_kuh0XhmA1pEddJeZzL36kw/viewform).&lt;br /&gt;Program naleznete v [**pozvánce**](https://cloud.iprpraha.cz/index.php/s/thNO0pAhtdEpWBA).</description>
+      <guid isPermaLink="false">42</guid>
+      <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro správce sítí</title>
+      <link>https://vimeo.com/966853398/9f4d769dc8?share=copy</link>
+      <description>KDY:  **29. 5. 2024 od 9:00 do 11:00.**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00</description>
+      <guid isPermaLink="false">41</guid>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Výzva vlastníkům, provozovatelům a správcům DTI k předání údajů do DTM od 10.5.2024</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/4</link>
+      <description>V souladu s bodem 1 přechodných ustanovení zákona č. 200/1994 Sb., o zeměměřictví, (zavedených zákonem č. 47/2020 Sb. Čl. II) zpřístupnily Praha a Středočeský kraj digitální technickou mapu kraje a tímto **vyzývají** obce a další vlastníky, provozovatele a správce dopravní a technické infrastruktury k součinnosti, zejména k předání jimi vedených údajů o objektech a zařízeních, které jsou obsahem digitální technické mapy kraje. Data o dopravní a technické infrastruktuře mohou být do DTM krajů předávána pouze standardními službami IS digitální mapy veřejné správy a IS digitální technické mapy, a to po předchozí registraci v registru subjektů. Potřebné informace k registraci jsou dostupné na internetové stránce [ČÚZK - Portál DMVS](https://cuzk.cz/DMVS/Portal-DMVS.aspx). Vlastníci dopravní a technické infrastruktury přitom zodpovídají za správnost, úplnost a aktuálnost předaných údajů, a to v rámci charakteristik přesnosti stanovených vyhláškou č. 393/2020 Sb., o digitální technické mapě kraje.
+
+**Údaje, prosím, předávejte od 10.5.2024.**
+
+Doporučujeme vlastníkům, provozovatelům a správcům před importem dat o své dopravní a technické infrastruktuře do produkčního prostředí DTM prostřednictvím IS DMVS otestovat tyto importy v integračním prostředí IS DMVS INT1. Případně alespoň zajistili, aby otestoval importy dat dopravní a technické infrastruktury dodavatel jejich software. Dokumentace k integračnímu prostředí je [na stránkách ČÚZK](https://cuzk.cz/DMVS/Popis-rozhrani/Dokumentace-integracniho-prostredi.aspx).</description>
+      <guid isPermaLink="false">4</guid>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části hl. m. Prahy</title>
+      <link>https://vimeo.com/933678486/1d4e3c6805?share=copy</link>
+      <description>KDY: **11. 4. 2024, 9 - 10:30 hodin**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00</description>
+      <guid isPermaLink="false">28</guid>
+      <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Webinář pro správce sítí</title>
+      <link>https://grantta-my.sharepoint.com/personal/marta_silbernaglova_cz_gt_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmarta%5Fsilbernaglova%5Fcz%5Fgt%5Fcom%2FDocuments%2FNahr%C3%A1vky%2FDTM%20webin%C3%A1%C5%99%20s%C3%AD%C5%A5a%C5%99i%2D20240321%5F085306%2DZ%C3%A1znam%20sch%C5%AFzky%2Emp4&amp;ga=1&amp;referrer=StreamWebApp%2EWeb&amp;referrerScenario=AddressBarCopied%2Eview%2E2115d8d1%2Dc2a6%2D41d2%2D906d%2De3e65ef2f695</link>
+      <description>KDY: **21. 3. 2024, 9 - 10:30**
+
+KDE: ONLINE</description>
+      <guid isPermaLink="false">27</guid>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jak na registraci obce do Registru subjektů ČÚZK v IS DMVS</title>
+      <link>https://www.youtube.com/watch?v=KXEmGsJjYPs&amp;ab_channel=St%C5%99edo%C4%8Desk%C3%BDkraj</link>
+      <description>Digitální technická mapa (DTM) ČR je důležitý projekt, který má za cíl vytvořit komplexní a aktuální systém pro správu dopravní a technické infrastruktury v rámci jednotlivých krajů. Centrálním místem zastřešující krajské systémy digitálních technických map je portál Digitální mapy veřejné správy (IS DMVS) provozovaný ČÚZK.
+Jak se má obec do Registru subjektů v IS DMVS zaregistrovat?
+Postup registrace do systému IS DMVS a vymezení částí DTI a rozsahu DTI částí najdete v záznamu přednášky z webináře pro obce organizovaném Středočeským krajem a IPR Praha, který se konal dne 23. 1. 2024.
+Podívejte se na záznam z webináře &gt;
+Jaké povinnosti z toho vyplývají pro obce?
+Dle zákona č. 47/2020 Sb. a navazující  vyhlášky č. 393/2020 Sb. mají  obce  povinnost sdílet v DTM svá  data o dopravní infrastruktuře (DI) a technické infrastruktuře (TI), které  mají se svém vlastnictví. Z tohoto důvodu mají obce povinnost zaregistrovat se do Registru subjektů, který najdete na portálu DMVS (Digitální mapa veřejné správy).
+Registrace do informačního systému DMVS je důležitá, jelikož pouze zaregistrované obce mohou:
+Vystupovat v DTM v roli správce, vlastníka nebo provozovatele dopravní a technické infrastruktury (DTI), kterou vlastní.
+Vkládat data o svých DTI do digitální technické mapy nebo pověřit jiný subjekt (tzv. editora) výkonem této činnosti.
+Vymezit v DTM oblasti území (tzv. části DTI), ve kterých se chce vyjadřovat k záměrům v rámci probíhajících stavebních řízení ve vztahu k jejich dopravní a technické infrastruktuře. Aby se mohla obec stát účastníkem řízení je zapotřebí, aby si v IS DMVS určila Vyjadřovatele, tj. osobu, které budou adresovány žádosti o vyjádření.  
+Chcete zjistit více? 
+Vaše dotazy můžete posílat na e-mail: DTM@kr-s.cz</description>
+      <guid isPermaLink="false">26</guid>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proběhlo: Seminář pro městské části hl. m. Prahy</title>
+      <link>https://vimeo.com/904451242/b2211670c3?share=copy</link>
+      <description>KDY: **18.1. 2024**
+
+KDE: CAMP Praha, Vyšehradská 51/2075, Praha 2, 128 00</description>
+      <guid isPermaLink="false">25</guid>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zapojení obcí Středočeského kraje do připravovaného projektu Rozvoj Digitální mapy Středočeského kraje.</title>
+      <link>https://portal.dtm-praha-sck.cz/archiv-zprav/24</link>
+      <description>Rada Středočeského kraje schválila dne 27.7.2023 Pravidla pro zapojení obcí Středočeského kraje do nově připravovaného projektu Rozvoj Digitální technické mapy Středočeského kraje. Středočeský kraj nabízí vybraným obcím ve Středočeském kraji možnost pořízení dat technické a dopravní infrastruktury v jejich vlastnictví. Kraj touto aktivitou vybraným obcím zajistí přípravu plnohodnotných dat pro prvotní naplnění DTM SČK a tím splnění zákonné povinnosti obcí, jakožto vlastníků technické a dopravní infrastruktury. Nutnou podmínkou zapojení je vyplnění dotazníku s termínem do 31.8.2023. Potřebné informace byly sděleny jednotlivým obcím dopisem Ing. Jiřího Snížka, náměstka hejtmanky Středočeského kraje pro oblast regionálního rozvoje a územního plánování, ze dne 1.8.2023 prostřednictvím datové schránky.</description>
+      <guid isPermaLink="false">24</guid>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Správa železnic zveřejnila svůj datový formát.</title>
+      <link>https://www.spravazeleznic.cz/digitalizace/dtm</link>
+      <description>Správa železnic k vašim potřebám či informaci zveřejnila na svých webových stránkách datový formát DTMŽ, ŽXML, který bude uplatněn pro prvotní naplnění dat do IS DTMŽ. Jeho další verze budou průběžně zveřejňovány.</description>
+      <guid isPermaLink="false">23</guid>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Registrace do IS DMVS</title>
+      <link>https://www.cuzk.cz/DMVS/Portal-DMVS.aspx</link>
+      <description>Portál DMVS, provozovaný ČÚZK je spuštěn na adrese https://dmvs.cuzk.cz/portal.
+
+ČÚZK rozesílá výzvy k registraci obcím dle jednotlivých krajů. Návod pro registraci je dostupný na stránkách ČÚZK k DMVS. </description>
+      <guid isPermaLink="false">22</guid>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novela vyhlášky č. 393/2020</title>
+      <link>https://cuzk.cz/DMVS/Legislativa/sb186-2023.aspx</link>
+      <description>Ve Sbírce zákonů vyšla pod č. 186/2023 vyhláška, kterou se novelizuje vyhláška č. 393/2020 Sb. o digitální technické mapě kraje.</description>
+      <guid isPermaLink="false">21</guid>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
