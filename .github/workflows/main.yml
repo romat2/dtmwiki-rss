@@ -33,11 +33,12 @@ jobs:
           python convert_to_rss.py
           python convert_to_rss_sz.py
           python convert_to_rss_sz_files.py
+          python convert_to_rss_praha_sck.py
 
       - name: Commit a Push změn
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           # Přidáme soubory, pokud existují
-          git add feed.xml feed_sz.xml feed_sz_files.xml news_cache.json files_cache.json || true
+          git add feed.xml feed_sz.xml feed_portal.xml feed_sz_files.xml news_cache.json files_cache.json || true
           git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizace RSS feedů a cache: $(date +'%Y-%m-%d %H:%M')" && git push)
