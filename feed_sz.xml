@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Fri, 20 Mar 2026 08:28:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 08:18:53 +0000</lastBuildDate>
+    <item>
+      <title>Chystá se přeshraniční editace s Karlovarským krajem</title>
+      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-karlovarskym-krajem</link>
+      <description>K 6. 4. 2026 bude spuštěná přeshraniční editace mezi Správou železnic a Karlovarským krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správu železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 1. 4. do 5. 4. 2026 bude pozastaven příjem GAD.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-karlovarskym-krajem</guid>
+      <pubDate>Fri, 20 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nová kontrola v GAD</title>
+      <link>https://www.spravazeleznic.cz/-/nova-kontrola-v-gad</link>
+      <description>Cílem kontroly je ověřit, že všechny nově předávané plochy do IS DTM kraje a mazané plochy v IS DTM kraje jsou zahrnuty v oblasti změny.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/nova-kontrola-v-gad</guid>
+      <pubDate>Fri, 20 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Přeshraniční editace s Moravskoslezským krajem spuštěna</title>
       <link>https://www.spravazeleznic.cz/-/preshranicni-editace-s-moravskoslezskym-krajem-spustena</link>
@@ -133,20 +147,6 @@
       <description>V souvislosti s přechodem krajských DTM na verzi jednotného výměnného formátu s označením JVF 1.5. dojde rovněž k aktualizaci logického datového modelu Správy železnic, státní organizace a úpravě výměnného formátu žxml.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/zverejneni-prvni-verze-xsd-sablon-pro-novou-verzi-zxml-souvisejici-s-prechodem-na-jvf-1-5</guid>
       <pubDate>Thu, 27 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chystá se přeshraniční editace s Královehradeckým krajem</title>
-      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-kralovehradeckym-krajem</link>
-      <description>K 8. 12. 2025 bude spuštěná přeshraniční editace mezi Správou železnic a Královehradeckým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 3. do 8. 12. 2025 bude pozastaven příjem GAD.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-kralovehradeckym-krajem</guid>
-      <pubDate>Fri, 21 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Úprava kontrol GAD v rámci IS DTMŽ</title>
-      <link>https://www.spravazeleznic.cz/-/uprava-kontrol-gad-v-ramci-is-dtmz</link>
-      <description>Po 1. 11. 2025 dojde v rámci kontrol GAD v IS DTMŽ k nasazení nových a úpravě některých stávajících kontrol.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/uprava-kontrol-gad-v-ramci-is-dtmz</guid>
-      <pubDate>Thu, 16 Oct 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
