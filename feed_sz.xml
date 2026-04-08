@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Tue, 07 Apr 2026 08:50:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 08:50:19 +0000</lastBuildDate>
+    <item>
+      <title>Přeshraniční editace s Karlovarským krajem spuštěna</title>
+      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-s-karlovarskym-krajem-spustena</link>
+      <description>Dne 7. 4. 2026 byla spuštěna přeshraniční editace mezi Správou železnic a Karlovarským krajem.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-s-karlovarskym-krajem-spustena</guid>
+      <pubDate>Wed, 08 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Chystá se přeshraniční editace s Karlovarským krajem</title>
       <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-karlovarskym-krajem</link>
@@ -140,13 +147,6 @@
       <description>K 12. 12. 2025 bude spuštěná přeshraniční editace mezi Správou železnic a Pardubickým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 10. do 12. 12. 2025 bude pozastaven příjem GAD.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-pardubickym-krajem</guid>
       <pubDate>Fri, 28 Nov 2025 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zveřejnění první verze xsd šablon pro novou verzi žxml související s přechodem na JVF 1.5</title>
-      <link>https://www.spravazeleznic.cz/-/zverejneni-prvni-verze-xsd-sablon-pro-novou-verzi-zxml-souvisejici-s-prechodem-na-jvf-1-5</link>
-      <description>V souvislosti s přechodem krajských DTM na verzi jednotného výměnného formátu s označením JVF 1.5. dojde rovněž k aktualizaci logického datového modelu Správy železnic, státní organizace a úpravě výměnného formátu žxml.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/zverejneni-prvni-verze-xsd-sablon-pro-novou-verzi-zxml-souvisejici-s-prechodem-na-jvf-1-5</guid>
-      <pubDate>Thu, 27 Nov 2025 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
