@@ -7,7 +7,34 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Thu, 23 Apr 2026 09:16:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 09:21:20 +0000</lastBuildDate>
+    <item>
+      <title>Seminář pro městské části</title>
+      <link>https://teams.microsoft.com/meet/311371819941127?p=4r6Ni88cm7WyyGGOIg</link>
+      <description>Dne **14. 5. 2026 od 13:00 do 14:30** proběhne online další z řady seminářů k DTM pro městské části. Registrace není nutná, stačí se připojit na odkaz níže. Záznam i prezentaci následně najdete na Portálu DTM.
+
+Témata semináře budou:
+- přístupy do systémů DTM kraje
+- povinnosti správců dopravní a technické infrastruktury
+- povinnosti stavebníků před kolaudací
+- přístup k datům DTM a práce s nimi
+- diskuse a další...
+
+[**Připojit se ke schůzce**](https://teams.microsoft.com/meet/311371819941127?p=4r6Ni88cm7WyyGGOIg)</description>
+      <guid isPermaLink="false">562</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novinky v poskytování dat</title>
+      <link>https://portal.dtm-praha-sck.cz/poskytovani-dat</link>
+      <description>Rozšířili jsme možnosti získání dat z Digitální technické mapy kraje (DTM). Nově je k dispozici aktualizovaný seznam mapových služeb, který je sjednocený pro Prahu i Středočeský kraj.
+
+Hlavní město Praha zároveň zveřejnilo stahovací balíčky základní prostorové situace (ZPS) ve formě otevřených dat. Data jsou dostupná prostřednictvím geoportálu Prahy ve formátech **JVF, SHP, DGN a GPKG** a vystavena za administrativní jednotky městských částí. Balíčky jsou aktualizovány jednou měsíčně (vždy s platností dat k poslednímu dni kalendářního měsíce).
+
+Přehled všech dostupných služeb a dat najdete na odkazech na stránce **„Poskytování dat“** na Portálu DTM Prahy a Středočeského kraje: [https://portal.dtm-praha-sck.cz/poskytovani-dat](https://portal.dtm-praha-sck.cz/poskytovani-dat).</description>
+      <guid isPermaLink="false">561</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Údržba serverů 17.4.</title>
       <link>https://portal.dtm-praha-sck.cz/archiv-zprav/541</link>
