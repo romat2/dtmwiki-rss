@@ -7,7 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Sun, 26 Apr 2026 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 10:04:04 +0000</lastBuildDate>
+    <item>
+      <title>Novinky v poskytování dat</title>
+      <link>https://portal.dtm-praha-sck.cz/poskytovani-dat</link>
+      <description>Rozšířili jsme možnosti získání dat z Digitální technické mapy kraje (DTM). Nově je k dispozici aktualizovaný seznam mapových služeb, který je sjednocený pro Prahu i Středočeský kraj.
+
+Hlavní město Praha zároveň zveřejnilo stahovací balíčky základní prostorové situace (ZPS) ve formě otevřených dat. Data jsou dostupná prostřednictvím geoportálu Prahy ve formátech **JVF, SHP, DGN a GPKG** a vystavena za administrativní jednotky městských částí. Balíčky jsou aktualizovány jednou měsíčně (vždy s platností dat k poslednímu dni kalendářního měsíce).
+
+Přehled všech dostupných služeb a dat najdete na odkazech na stránce **„Poskytování dat“** na Portálu DTM Prahy a Středočeského kraje: [https://portal.dtm-praha-sck.cz/poskytovani-dat](https://portal.dtm-praha-sck.cz/poskytovani-dat).</description>
+      <guid isPermaLink="false">561</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Seminář pro městské části</title>
       <link>https://teams.microsoft.com/meet/311371819941127?p=4r6Ni88cm7WyyGGOIg</link>
@@ -22,18 +33,7 @@ Témata semináře budou:
 
 [**Připojit se ke schůzce**](https://teams.microsoft.com/meet/311371819941127?p=4r6Ni88cm7WyyGGOIg)</description>
       <guid isPermaLink="false">562</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Novinky v poskytování dat</title>
-      <link>https://portal.dtm-praha-sck.cz/poskytovani-dat</link>
-      <description>Rozšířili jsme možnosti získání dat z Digitální technické mapy kraje (DTM). Nově je k dispozici aktualizovaný seznam mapových služeb, který je sjednocený pro Prahu i Středočeský kraj.
-
-Hlavní město Praha zároveň zveřejnilo stahovací balíčky základní prostorové situace (ZPS) ve formě otevřených dat. Data jsou dostupná prostřednictvím geoportálu Prahy ve formátech **JVF, SHP, DGN a GPKG** a vystavena za administrativní jednotky městských částí. Balíčky jsou aktualizovány jednou měsíčně (vždy s platností dat k poslednímu dni kalendářního měsíce).
-
-Přehled všech dostupných služeb a dat najdete na odkazech na stránce **„Poskytování dat“** na Portálu DTM Prahy a Středočeského kraje: [https://portal.dtm-praha-sck.cz/poskytovani-dat](https://portal.dtm-praha-sck.cz/poskytovani-dat).</description>
-      <guid isPermaLink="false">561</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Údržba serverů 17.4.</title>
