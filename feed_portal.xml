@@ -7,7 +7,25 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Fri, 08 May 2026 09:02:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:51:15 +0000</lastBuildDate>
+    <item>
+      <title>Evropský projekt: Vytvoření krajských komponent evidence připravovaných staveb infrastruktury</title>
+      <link>https://stredoceskykraj.cz/web/odbor-digitalizace/digitalne-technicka-mapa</link>
+      <description>Krajský úřad pro Středočeský kraj (KÚSK) realizoval klíčový projekt zaměřený na digitalizaci a zefektivnění stavebního řízení.
+
+Projekt: Vytvoření krajských komponent evidence připravovaných staveb infrastruktury
+
+Cílem projektu bylo vytvořit nezbytnou novou funkci informačního systému Digitální technické mapy (DTM) Prahy a Středočeského kraje pro podporu vedení údajů o připravovaných stavbách infrastruktury.
+Zajistit soulad s evropskou směrnicí a nařízením EU 2024/1309 (GIA) o gigabitové infrastruktuře a související českou novelou zákona č. 202/2023 Sb..
+Realizací dojde k doplnění nezbytných služeb a zajištění funkčnosti vyžadované novou legislativou, včetně integrace s formátem ve verzi JVF 1.5.
+Na tento projekt je poskytována finanční podpora z fondů EU prostřednictvím Národního plánu obnovy (NextGenerationEU).
+
+Registrační číslo: CZ.31.1.0/0.0/0.0/25_161/0011695
+
+Celková předpokládaná dotace EU: 2 000 000,00 Kč</description>
+      <guid isPermaLink="false">581</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Novinky v poskytování dat</title>
       <link>https://portal.dtm-praha-sck.cz/poskytovani-dat</link>
