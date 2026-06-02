@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:25:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 11:55:57 +0000</lastBuildDate>
+    <item>
+      <title>Víkendová odstávka IS DTMŽ</title>
+      <link>https://www.spravazeleznic.cz/-/vikendova-odstavka-is-dtmz</link>
+      <description>O víkendu 6. – 7. 6. 2026 bude probíhat z důvodu rozsáhlého testování odstávka celého systému IS DTMŽ.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/vikendova-odstavka-is-dtmz</guid>
+      <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Aktualizace LDM ve vztahu k JVF 1.5.1</title>
       <link>https://www.spravazeleznic.cz/-/aktualizace-ldm-ve-vztahu-k-jvf-1-5-2</link>
@@ -140,13 +147,6 @@
       <description>Od 19. 1. 2026 bude pro externí geodety příjem a výdej dat z IS DTMŽ probíhat výhradně prostřednictvím Geoportálu DTMŽ.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/prijem-a-vydej-dat-z-dtmz-bude-probihat-vyhradne-prostrednictvim-geoportalu-dtmz</guid>
       <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Přeshraniční editace se Zlínským krajem spuštěna</title>
-      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-se-zlinskym-krajem-spustena</link>
-      <description>Dne 12. 1. 2026 byla spuštěna přeshraniční editace mezi Správou železnic a Zlínským krajem.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-se-zlinskym-krajem-spustena</guid>
-      <pubDate>Mon, 12 Jan 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
