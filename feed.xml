@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Tue, 02 Jun 2026 11:55:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 12:28:17 +0000</lastBuildDate>
     <item>
       <title>22.3.2026 - doplněna připravovaná interní kontrola, která bude zavedena s nasazením verze JVF DTM 1.54.11 Kontrola validního zápisu geometrie ploch ZPS (odvozených objektů ZPS)Kontrola nebude probíhat při příjmu GAD, ale při interní tvorbě odvozených objektů a při přeshraniční editaci.</title>
       <link>https://dtmwiki.cuzk.gov.cz/start</link>
