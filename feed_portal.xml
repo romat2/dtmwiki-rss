@@ -7,7 +7,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Wed, 10 Jun 2026 11:29:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 12:01:46 +0000</lastBuildDate>
+    <item>
+      <title>Open Days k projektu Digitální technická mapa Středočeského kraje</title>
+      <link>https://stredoceskykraj.cz/web/odbor-digitalizace/digitalne-technicka-mapa</link>
+      <description>Dne 4. června 2026 proběhlo slavnostní zakončení projektu DTM 1, který byl podpořen z finančních prostředků Evropské unie. Setkání řešitelského týmu a dodavatelů projektu se uskutečnilo v prostorách Krajského úřadu Středočeského kraje (KÚSK).
+Odborná veřejnost měla možnost se akce zúčastnit také online prostřednictvím platformy MS Teams.</description>
+      <guid isPermaLink="false">622</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Plánovaná aktualizace provozního prostředí</title>
       <link>https://portal.dtm-praha-sck.cz/archiv-zprav/621</link>
