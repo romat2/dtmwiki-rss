@@ -7,7 +7,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>cs</language>
-    <lastBuildDate>Sun, 26 Jul 2026 09:49:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 10:59:52 +0000</lastBuildDate>
+    <item>
+      <title>Odstávka IS DTMŽ ve čtvrtek 30. a pátek 31. července</title>
+      <link>https://www.spravazeleznic.cz/-/odstavka-is-dtmz-ve-ctvrtek-30-a-patek-31-cervence</link>
+      <description>Ve čtvrtek 30. a pátek 31. července bude po celý den z provozních důvodů systém IS DTMŽ mimo provoz.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/odstavka-is-dtmz-ve-ctvrtek-30-a-patek-31-cervence</guid>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aktualizace LDM ve vztahu k JVF 1.5.1</title>
+      <link>https://www.spravazeleznic.cz/-/aktualizace-ldm-ve-vztahu-k-jvf-1-5-5</link>
+      <description>Dne 21.7.2026 proběhla aktualizace LDM na verzi 17.</description>
+      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/aktualizace-ldm-ve-vztahu-k-jvf-1-5-5</guid>
+      <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Aktualizace LDM ve vztahu k JVF 1.5.1</title>
       <link>https://www.spravazeleznic.cz/-/aktualizace-ldm-ve-vztahu-k-jvf-1-5-4</link>
@@ -133,20 +147,6 @@
       <description>Na stránky Geoportálu DTMŽ byl v návodech v sekci Nápověda zveřejněn popis Validátoru ŽXML.</description>
       <guid isPermaLink="false">https://www.spravazeleznic.cz/-/popis-validatoru-zxml</guid>
       <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chystá se přeshraniční editace s Libereckým krajem</title>
-      <link>https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-libereckym-krajem</link>
-      <description>K 18. 2. 2026 bude spuštěná přeshraniční editace mezi Správou železnic a Libereckým krajem. Při zpracování GAD DTMŽ to znamená, že všechna data, která budou na Správě železnic v rámci tohoto kraje odevzdávána od tohoto data, musí být navázána i na krajská data. Od 13.2. do 17. 2. 2026 bude pozastaven příjem GAD.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/chysta-se-preshranicni-editace-s-libereckym-krajem</guid>
-      <pubDate>Tue, 03 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Přeshraniční editace s Ústeckým krajem spuštěna</title>
-      <link>https://www.spravazeleznic.cz/-/preshranicni-editace-s-usteckym-krajem-spustena</link>
-      <description>Dne 2. 2. 2026 byla spuštěna přeshraniční editace mezi Správou železnic a Ústeckým krajem.</description>
-      <guid isPermaLink="false">https://www.spravazeleznic.cz/-/preshranicni-editace-s-usteckym-krajem-spustena</guid>
-      <pubDate>Tue, 03 Feb 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
